@@ -4,6 +4,7 @@ export const FriendListStyled = styled.ul`
   display: flex;
   margin-top: 50px;
   justify-content: center;
+
   .img {
     size: 10px;
   }
