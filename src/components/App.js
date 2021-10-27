@@ -1,12 +1,9 @@
-// slr
-// imr
 import React from "react";
-// import PropTypes from "prop-types";
 
-import Profile from "./profile/Profile";
-import Statistic from "./statistic/Statistic";
-import FriendList from "./friendList/FriendList";
-import TransactionHistory from "./transactionHistory/TransactionHistory";
+import Profile from "./Profile/Profile";
+import Statistic from "./Statistic/Statistic";
+import FriendList from "./FriendList/FriendList";
+import TransactionHistory from "./TransactionHistory/TransactionHistory";
 import data from "data";
 
 const app = () => {

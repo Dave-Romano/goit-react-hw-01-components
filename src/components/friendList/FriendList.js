@@ -25,15 +25,4 @@ FriendList.propTypes = {
   dataFriends: PropTypes.array,
 };
 
-// FriendList.propTypes = {
-//   dataFriends: PropTypes.shape({
-//     friend: PropTypes.shape({
-//       id: PropTypes.number,
-//       isOnline: PropTypes.bool,
-//       name: PropTypes.string,
-//       avatar: PropTypes.string,
-//     }),
-//   }),
-// };
-
 export default FriendList;

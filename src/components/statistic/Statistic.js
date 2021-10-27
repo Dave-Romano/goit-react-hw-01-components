@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import StatisticItem from "./statisticItem/StatisticItem";
+import StatisticItem from "./StatisticItem/StatisticItem";
 import { StatisticStyled } from "./StatisticStyled";
 
 const Statistic = ({ dataStatistic, title }) => {
@@ -21,13 +21,7 @@ const Statistic = ({ dataStatistic, title }) => {
 
 Statistic.propTypes = {
   dataStatistic: PropTypes.array,
+  title: PropTypes.string,
 };
-// Statistic.propTypes = {
-//   dataStatistic: PropTypes.shape({
-//     el: PropTypes.shape({
-//       id: PropTypes.string,
-//     }),
-//   }),
-// };
 
 export default Statistic;
