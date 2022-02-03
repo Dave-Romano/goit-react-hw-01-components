@@ -20,9 +20,7 @@ const Statistic = ({ dataStatistic, title }) => {
 };
 
 Statistic.propTypes = {
-  dataStatistic: PropTypes.arrayOf(
-    PropTypes.shape({ label: PropTypes.string.isRequired })
-  ),
+  dataStatistic: PropTypes.array.isRequired,
   title: PropTypes.string,
 };
 
