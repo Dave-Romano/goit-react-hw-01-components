@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import StatisticItem from "./StatisticItem/StatisticItem";
+import StatisticItem from "./statisticItem/StatisticItem";
 import { StatisticStyled } from "./StatisticStyled";
 
 const Statistic = ({ dataStatistic, title }) => {
@@ -20,7 +20,9 @@ const Statistic = ({ dataStatistic, title }) => {
 };
 
 Statistic.propTypes = {
-  dataStatistic: PropTypes.array,
+  dataStatistic: PropTypes.arrayOf(
+    PropTypes.shape({ label: PropTypes.string.isRequired })
+  ),
   title: PropTypes.string,
 };
 

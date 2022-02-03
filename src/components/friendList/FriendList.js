@@ -22,7 +22,9 @@ const FriendList = ({ dataFriends }) => {
 };
 
 FriendList.propTypes = {
-  dataFriends: PropTypes.array,
+  dataFriends: PropTypes.arrayOf(
+    PropTypes.shape({ label: PropTypes.string.isRequired })
+  ),
 };
 
 export default FriendList;
